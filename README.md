@@ -2,22 +2,24 @@
 TP - 4 Periodo
 
 # Árvore B em Disco
-
-Este é um projeto que implementa uma árvore B em disco, uma estrutura de dados eficiente para armazenar e recuperar informações ordenadas em um sistema de armazenamento persistente.
-
-## Visão Geral
-
-A árvore B em disco é uma extensão da árvore B clássica, otimizada para minimizar acessos ao disco e melhorar o desempenho em operações de leitura e gravação em massa.
+Este projeto implementa uma Árvore B em disco em C++, conforme as especificações de um trabalho acadêmico. A estrutura da árvore é persistida em registros de arquivo, proporcionando eficiência em operações de leitura e gravação em massa.
 
 ## Funcionalidades
 
-- **Inserção eficiente:** A estrutura permite a inserção eficiente de novos elementos, mantendo o balanceamento da árvore.
-- **Busca otimizada:** Operações de busca e recuperação são realizadas de maneira eficiente, minimizando acessos ao disco.
-- **Remoção eficaz:** Remoção de elementos da árvore é realizada de forma eficaz, mantendo a integridade da estrutura.
+- Inserção eficiente de valores na árvore.
+- Remoção de valores da árvore mantendo a consistência.
+- Impressão completa da árvore.
+- Busca de valores na árvore.
+- Execução de um conjunto padronizado de testes.
 
 ## Pré-requisitos
 
-- [Inserir pré-requisitos, como linguagem de programação, bibliotecas necessárias, etc.]
+- Linguagem de programação: C++
+- Ambiente de Desenvolvimento: Code::Blocks
+- Compilação e teste realizados em ambiente Linux
+  
+## Contribuindo
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões para melhorar este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ## Como Usar
 
@@ -45,6 +47,5 @@ arvore.remover(10)
 # Imprimir árvore
 arvore.imprimir()
 
-##Contribuindo
-Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões para melhorar este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
 
