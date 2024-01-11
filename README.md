@@ -45,6 +45,6 @@ arvore.remover(10)
 # Imprimir árvore
 arvore.imprimir()
 
-Contribuindo
+##Contribuindo
 Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões para melhorar este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
